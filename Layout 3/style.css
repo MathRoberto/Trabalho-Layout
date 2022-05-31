@@ -1,0 +1,108 @@
+body{
+display: grid;
+grid-template-rows: 30vh 30vh 30vh;
+grid-template-areas: 
+'c1 c2 c2'
+'c1 c3 c3'
+'c4 c5 c6';
+grid-gap: 10px;
+font-weight: bold;
+text-transform:uppercase;
+color: white;
+text-align: center;
+}
+
+.desenho{ 
+ display: grid;
+ grid-template-columns: auto auto auto;
+ text-align: center;
+ position: relative;
+ top: 20vh;
+ 
+}
+
+.d1{
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: white;
+  position: relative;
+  height: 90px;
+  width: 40px;
+  left: 260px;
+  
+}
+
+.d2{
+  background-color: white;
+  position: relative;
+  width: 10px;
+  height: 40px;
+  left: 260px;
+  padding-top: 30px;
+  margin-top: 3px;
+}
+
+.d3{
+  background-color: white;
+  position: relative;
+  width: 10px;
+  height: 40px;
+  left: 90px;
+  padding-top: 30px;
+  margin-top: 3px;
+
+}
+
+.d4{
+  background-color: white;
+  position: relative;
+  width: 10px;
+  height: 40px;
+  left: -80px;
+  padding-top: 30px;
+  margin-top: 3px;
+
+}
+
+
+
+.div1{ /* Essa e a div da imagem */
+  grid-area: c1;
+  background-color: #d0248c;
+  border-radius: 1%;
+
+}
+
+.div2{
+  grid-area: c2;
+  background-color: #e01c64;
+  border-radius: 2%;
+
+}
+
+.div3{
+  grid-area: c3;
+  background-color: #b81474;
+  border-radius: 2%;
+  
+}
+
+.div4{
+  grid-area: c4;
+  background: #c81464;
+  height: 30vh;
+  border-radius: 2%;
+}
+
+.div5{
+  grid-area: c5;
+  background-color: #c0147c;
+  border-radius: 2%;
+}
+
+.div6{
+  grid-area: c6;
+  background-color: #900c4c ;
+  border-radius: 2%;
+}

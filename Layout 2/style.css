@@ -1,0 +1,62 @@
+body{
+    display: grid;
+    grid-template-areas:
+    'navbar navbar navbar navbar'
+    'sidebar main  main main'
+    'sidebar div div2 div3'
+    'sidebar footer footer footer';
+    font-weight: bold;
+    text-align: center;
+    grid-gap: 2px;
+    
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: lightblue;
+    padding-bottom: 2vh;
+    
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: aqua;
+    padding-bottom: 94vh;
+}
+
+
+.main{
+    grid-area: main;
+    padding-bottom: 30vh;
+    background-color: lightskyblue;
+
+}
+
+.div{
+    grid-area: div;
+    padding-bottom: 12vh;
+    background-color: #70fcd4;
+
+
+}
+
+.span{
+    grid-area: div2;
+    background-color: aqua;
+    padding-bottom: 12vh;
+
+}
+
+.div2{
+    grid-area: div3;
+    background-color: turquoise;
+     padding-bottom: 12vh;
+
+}
+
+.footer{
+    grid-area: footer;
+    padding-bottom: 3vh;
+    background-color: #20ecb4;
+
+}

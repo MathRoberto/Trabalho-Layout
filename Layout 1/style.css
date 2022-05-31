@@ -1,0 +1,49 @@
+/* Peguei as cores que você colocou nos e peguei o código HEX das cores, pra ficar mais fiel  */
+body{
+
+    grid-gap: 6px;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav section aside"
+    "footer footer footer"
+    
+}
+
+
+.header{
+
+    grid-area: header;
+    background-color: #787474;
+    padding-bottom: 9vh;
+}
+
+.nav{
+
+    grid-area: nav;
+    background-color: lightgray;
+    padding-bottom: 75vh;
+}
+
+.aside{
+
+    grid-area: aside;
+    padding-bottom: 75vh;
+    background-color: lightgray;
+}
+
+.section{
+
+    grid-area: section;
+    background-color: darkgray;
+    padding-bottom: 75vh;
+}
+
+.footer{
+
+    grid-area: footer;
+    padding-bottom: 5vh;
+    background-color:#787474;
+}
+
+

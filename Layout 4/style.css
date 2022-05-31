@@ -1,0 +1,61 @@
+body{
+    display: grid;
+    grid-template-areas:
+    'espaco1 espaco2 espaco3'
+    'espaco4 espaco5 espaco6';
+    grid-gap: 20px;
+    background-color: lightgray;
+
+}
+
+.espaco1{
+    grid-area: espaco1;
+    background-color: white;
+    height: 300px;
+    border-top: 4px solid purple;
+    
+    
+    
+}
+
+.espaco2{
+    grid-area: espaco2;
+    background-color: white;
+    height: 300px;
+    border-top: 4px solid purple;
+    
+    
+}
+
+.espaco3{
+    grid-area: espaco3;
+    background-color: white;
+    height: 300px;
+    border-top: 4px solid purple;
+    
+    
+    
+}
+
+.espaco4{
+    grid-area: espaco4;
+    background-color: white;
+    height: 300px;
+    border-top: 4px solid purple;
+    
+}
+
+.espaco5{
+    grid-area: espaco5;
+    background-color: white;
+    height: 300px;
+    border-top: 4px solid purple;
+}
+
+.espaco6{
+    grid-area: espaco6;
+    background-color: white;
+    height: 300px;
+    border-top: 4px solid purple;
+}
+

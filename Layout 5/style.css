@@ -1,0 +1,70 @@
+body{
+text-align: center;
+display: grid;
+grid-template-areas: 
+'header header header header'
+'nav nav nav nav'
+'esquerdo esquerdo esquerdo direito';
+
+
+
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+    height: 50px;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: gray;
+
+}
+
+.ladoEsquerdo{
+    grid-area: esquerdo;
+    background-color: purple;
+    width: 70vw;
+}
+
+.colunasEsquerdo{
+    display: grid;
+    grid-template-areas: 'section section';
+}
+
+.ladoDireito{
+
+grid-area: direito;
+background-color: aquamarine;
+width: 20vw;
+text-align: center;
+height: 90vh;
+}
+
+
+.section{
+    
+    background-color: pink;
+    width: 30vw;
+    height: 88vh;
+    margin: auto;
+
+}
+
+.aside1{
+    background-color: lightblue;
+    width: 18vw;
+    height: 44vh;
+    align-items: center;
+    margin: 0px 20px 20px;
+
+}
+
+.aside2{
+    background-color: red;
+    width: 18vw;
+    height: 43vh;
+    align-items: center;
+    margin: 0px 20px 20px;
+}
